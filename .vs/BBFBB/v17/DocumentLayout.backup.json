@@ -3,15 +3,35 @@
   "WorkspaceRootPath": "C:\\Users\\simon\\OneDrive\\Desktop\\BBFBB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CBA84BB1-6F94-C1E5-D01B-F5ABC4B8FACD}|Assembly-CSharp.csproj|C:\\Users\\simon\\OneDrive\\Desktop\\BBFBB\\assets\\script\\intro cutscene\\exitintro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBA84BB1-6F94-C1E5-D01B-F5ABC4B8FACD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\intro cutscene\\exitintro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CBA84BB1-6F94-C1E5-D01B-F5ABC4B8FACD}|Assembly-CSharp.csproj|c:\\users\\simon\\onedrive\\desktop\\bbfbb\\assets\\script\\calluponjumpboostleftfacing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA84BB1-6F94-C1E5-D01B-F5ABC4B8FACD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\calluponjumpboostleftfacing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA84BB1-6F94-C1E5-D01B-F5ABC4B8FACD}|Assembly-CSharp.csproj|c:\\users\\simon\\onedrive\\desktop\\bbfbb\\assets\\script\\calluponjumpboostrightfacing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA84BB1-6F94-C1E5-D01B-F5ABC4B8FACD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\calluponjumpboostrightfacing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA84BB1-6F94-C1E5-D01B-F5ABC4B8FACD}|Assembly-CSharp.csproj|C:\\Users\\simon\\OneDrive\\Desktop\\BBFBB\\assets\\script\\cameralock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA84BB1-6F94-C1E5-D01B-F5ABC4B8FACD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\cameralock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA84BB1-6F94-C1E5-D01B-F5ABC4B8FACD}|Assembly-CSharp.csproj|C:\\Users\\simon\\OneDrive\\Desktop\\BBFBB\\assets\\script\\cameraunlock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA84BB1-6F94-C1E5-D01B-F5ABC4B8FACD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\cameraunlock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA84BB1-6F94-C1E5-D01B-F5ABC4B8FACD}|Assembly-CSharp.csproj|C:\\Users\\simon\\OneDrive\\Desktop\\BBFBB\\assets\\script\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA84BB1-6F94-C1E5-D01B-F5ABC4B8FACD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CBA84BB1-6F94-C1E5-D01B-F5ABC4B8FACD}|Assembly-CSharp.csproj|C:\\Users\\simon\\OneDrive\\Desktop\\BBFBB\\assets\\script\\intro cutscene\\introscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CBA84BB1-6F94-C1E5-D01B-F5ABC4B8FACD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\intro cutscene\\introscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CBA84BB1-6F94-C1E5-D01B-F5ABC4B8FACD}|Assembly-CSharp.csproj|c:\\users\\simon\\onedrive\\desktop\\bbfbb\\assets\\script\\menucontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CBA84BB1-6F94-C1E5-D01B-F5ABC4B8FACD}|Assembly-CSharp.csproj|C:\\Users\\simon\\OneDrive\\Desktop\\BBFBB\\assets\\script\\intro cutscene\\exitintro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA84BB1-6F94-C1E5-D01B-F5ABC4B8FACD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\intro cutscene\\exitintro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA84BB1-6F94-C1E5-D01B-F5ABC4B8FACD}|Assembly-CSharp.csproj|C:\\Users\\simon\\OneDrive\\Desktop\\BBFBB\\assets\\script\\menucontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CBA84BB1-6F94-C1E5-D01B-F5ABC4B8FACD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\menucontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -51,6 +71,68 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CallUponJumpBoostLeftFacing.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\BBFBB\\Assets\\script\\CallUponJumpBoostLeftFacing.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\CallUponJumpBoostLeftFacing.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\BBFBB\\Assets\\script\\CallUponJumpBoostLeftFacing.cs",
+              "RelativeToolTip": "Assets\\script\\CallUponJumpBoostLeftFacing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T12:22:15.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CallUponJumpBoostRightFacing.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\BBFBB\\Assets\\script\\CallUponJumpBoostRightFacing.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\CallUponJumpBoostRightFacing.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\BBFBB\\Assets\\script\\CallUponJumpBoostRightFacing.cs",
+              "RelativeToolTip": "Assets\\script\\CallUponJumpBoostRightFacing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T12:22:05.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CameraUnlock.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\BBFBB\\Assets\\script\\CameraUnlock.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\CameraUnlock.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\BBFBB\\Assets\\script\\CameraUnlock.cs",
+              "RelativeToolTip": "Assets\\script\\CameraUnlock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T11:49:04.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CameraLock.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\BBFBB\\Assets\\script\\CameraLock.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\CameraLock.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\BBFBB\\Assets\\script\\CameraLock.cs",
+              "RelativeToolTip": "Assets\\script\\CameraLock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T10:51:29.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\BBFBB\\Assets\\script\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\CameraFollow.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\BBFBB\\Assets\\script\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\script\\CameraFollow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T10:53:49.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ExitIntro.cs",
               "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\BBFBB\\Assets\\script\\Intro Cutscene\\ExitIntro.cs",
               "RelativeDocumentMoniker": "Assets\\script\\Intro Cutscene\\ExitIntro.cs",
@@ -58,12 +140,11 @@
               "RelativeToolTip": "Assets\\script\\Intro Cutscene\\ExitIntro.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T07:46:17.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T07:46:17.663Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "MenuControls.cs",
               "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\BBFBB\\Assets\\script\\MenuControls.cs",
               "RelativeDocumentMoniker": "Assets\\script\\MenuControls.cs",
@@ -71,12 +152,11 @@
               "RelativeToolTip": "Assets\\script\\MenuControls.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T07:40:37.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T07:40:37.619Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "DestroyAfterLifetime.cs",
               "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\BBFBB\\Assets\\script\\DestroyAfterLifetime.cs",
               "RelativeDocumentMoniker": "Assets\\script\\DestroyAfterLifetime.cs",
@@ -88,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "IntroCoinTrap.cs",
               "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\BBFBB\\Assets\\script\\Intro Cutscene\\IntroCoinTrap.cs",
               "RelativeDocumentMoniker": "Assets\\script\\Intro Cutscene\\IntroCoinTrap.cs",
@@ -100,20 +180,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "IntroScene.cs",
               "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\BBFBB\\Assets\\script\\Intro Cutscene\\IntroScene.cs",
               "RelativeDocumentMoniker": "Assets\\script\\Intro Cutscene\\IntroScene.cs",
               "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\BBFBB\\Assets\\script\\Intro Cutscene\\IntroScene.cs",
               "RelativeToolTip": "Assets\\script\\Intro Cutscene\\IntroScene.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAwFUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAkwGAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T11:26:57.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T11:26:57.598Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "MovingPlatform.cs",
               "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\BBFBB\\Assets\\script\\MovingPlatform.cs",
               "RelativeDocumentMoniker": "Assets\\script\\MovingPlatform.cs",
@@ -125,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Run Along Ground.cs",
               "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\BBFBB\\Assets\\script\\Run Along Ground.cs",
               "RelativeDocumentMoniker": "Assets\\script\\Run Along Ground.cs",
@@ -137,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "ChickenEnemy.cs",
               "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\BBFBB\\Assets\\script\\ChickenEnemy.cs",
               "RelativeDocumentMoniker": "Assets\\script\\ChickenEnemy.cs",
@@ -149,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\BBFBB\\Assets\\script\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\script\\PlayerMovement.cs",
