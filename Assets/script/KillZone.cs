@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+
 public class KillZone : MonoBehaviour
 {
     [SerializeField] private Transform spawnPosition;
@@ -9,11 +9,8 @@ public class KillZone : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            //below script not needed
-            //other.transform.position = spawnPosition.position;
-            //other.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-            
+            other.transform.position = spawnPosition.position;
+            other.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         }
     }
 

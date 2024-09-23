@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     private float SlowZone = 1; // slow zone starts at 1, then gets made into a percentage later
 
     [SerializeField] private Transform leftFoot, rightFoot;
-    [SerializeField] private Transform spawnPosition;
+    [SerializeField] public Transform spawnPosition;
     [SerializeField] private LayerMask whatIsGround;
     [SerializeField] private AudioClip jumpSound, pickupSound, healthSound, hitSound, PorridgeSound;
     [SerializeField] private GameObject coinParticle, jumpParticle;
@@ -39,7 +39,7 @@ public class PlayerMovement : MonoBehaviour
     private int CoinsCollected = 0;
     public int PorridgeCollected = 0;
     private float conveyorEffect = 0;
-    [SerializeField] private float transferMomentumUp;
+    private float transferMomentumUp;
     
 
 
@@ -188,12 +188,14 @@ public class PlayerMovement : MonoBehaviour
         {
             onHighJumpFaceLeft = true;
             Debug.Log("LEFT UP BOOST!");
+            transferMomentumUp = uselessVariable2.jumpBoostLeft;
         }
 
         if (other.gameObject.TryGetComponent<CallUponJumpBoostRightFacing>(out CallUponJumpBoostRightFacing uselessVariable3))
         {
             onHighJumpFaceRight = true;
             Debug.Log("RIGHT UP BOOST!");
+            transferMomentumUp = uselessVariable3.jumpBoostRight;
         }
     }
 
@@ -318,14 +320,5 @@ public class PlayerMovement : MonoBehaviour
         transform.position = spawnPosition.position;
       rgbd.velocity = Vector2.zero;
     }
-
-// hannalie testing water mechanic after this
-
-//private float velocity = 0;
-//private float force = 0;
-//current height
-//private float height = 0f;
-//normal height
-//private float target_height = 0f;
 
 }
