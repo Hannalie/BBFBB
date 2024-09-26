@@ -6,12 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/titlescreen.unity
+    guid: facdb4ee6cc1d674cba99e586918d1f7
+  - enabled: 1
     path: Assets/Scenes/StartMenu.unity
     guid: 521d6d6dcc870304b8aaae6186fe59a5
   - enabled: 1
     path: Assets/Scenes/Intro cutscene.unity
     guid: fa16c7833ff7c1d42b1985ed52c40a45
   - enabled: 1
-    path: Assets/Scenes/Measurement Playground.unity
-    guid: 3095056f82dd7bd4fa07a8a8cfe94089
+    path: Assets/Scenes/Lvl 1 Ver 3.unity
+    guid: 47bb00b4e58805041ae16cee84d37188
   m_configObjects: {}

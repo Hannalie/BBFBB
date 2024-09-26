@@ -94,6 +94,6 @@ public class IntroScene : MonoBehaviour
 
     private void loadScene()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
 }

@@ -8,7 +8,7 @@ public class MenuControls : MonoBehaviour
     [SerializeField] private GameObject creditspanel;
    public void StartGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
     public void QuitGame()
