@@ -6,7 +6,7 @@ public class RunAlongGround : MonoBehaviour
 {
     [SerializeField] private float moveSpeed;
     Rigidbody2D rgbd;
-    private bool activatePlatform = false;
+    public bool activatePlatform = false;
 
     void Start()
     {

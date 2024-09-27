@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     private float SlowZone = 1; // slow zone starts at 1, then gets made into a percentage later
 
     [SerializeField] private Transform leftFoot, rightFoot;
-    [SerializeField] public Transform spawnPosition;
+    [SerializeField] static public Transform spawnPosition;
     [SerializeField] private LayerMask whatIsGround;
     [SerializeField] private AudioClip jumpSound, pickupSound, healthSound, hitSound, PorridgeSound;
     [SerializeField] private GameObject coinParticle, jumpParticle;
@@ -40,6 +40,7 @@ public class PlayerMovement : MonoBehaviour
     public int PorridgeCollected = 0;
     private float conveyorEffect = 0;
     private float transferMomentumUp;
+    
     
 
 
@@ -196,6 +197,11 @@ public class PlayerMovement : MonoBehaviour
             onHighJumpFaceRight = true;
             Debug.Log("RIGHT UP BOOST!");
             transferMomentumUp = uselessVariable3.jumpBoostRight;
+        }
+
+        if (other.CompareTag("Checkpoint"))
+        {
+            spawnPosition = other.transform;
         }
     }
 

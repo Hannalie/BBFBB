@@ -10,8 +10,8 @@ TagManager:
   - coin
   - Porridge
   - Health
-  - Conveyor
   - cutScene
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
