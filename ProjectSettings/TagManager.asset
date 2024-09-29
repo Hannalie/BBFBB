@@ -12,6 +12,7 @@ TagManager:
   - Health
   - cutScene
   - Checkpoint
+  - Cage
   layers:
   - Default
   - TransparentFX

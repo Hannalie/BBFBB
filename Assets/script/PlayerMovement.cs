@@ -25,6 +25,8 @@ public class PlayerMovement : MonoBehaviour
     // [SerializeField] private Color greenHealth, redHealth;
     [SerializeField] private TMP_Text coinText;
     [SerializeField] private TMP_Text PorridgeText;
+
+    [SerializeField] public int cageGoal = 1;
     private float horizontalValue;
     private Rigidbody2D rgbd;
     private Animator anim;
@@ -37,7 +39,7 @@ public class PlayerMovement : MonoBehaviour
     private float rayDistance = 0.25f;
     private int startingHealth = 5;
     private int currentHealth = 0;
-    private int CoinsCollected = 0;
+    public int CoinsCollected = 0;
     public int PorridgeCollected = 0;
     private float conveyorEffect = 0;
     private float transferMomentumUp;
@@ -161,7 +163,7 @@ public class PlayerMovement : MonoBehaviour
             Instantiate(coinParticle, other.transform.position, Quaternion.identity);
         }
 
-        if (other.CompareTag("Porridge"))
+        if (other.CompareTag("Porridge") && CoinsCollected >= cageGoal)
         {
             ljud.PlayOneShot(PorridgeSound, 0.4f);
             ljud.pitch = Random.Range(0.8f, 1.2f);
@@ -169,6 +171,10 @@ public class PlayerMovement : MonoBehaviour
         PorridgeCollected++;
             PorridgeText.text = "" + PorridgeCollected;
             Instantiate(coinParticle, other.transform.position, Quaternion.identity);
+        }
+         if (other.CompareTag("Cage") && CoinsCollected >= cageGoal)
+        {
+            Destroy(other.gameObject);
         }
 
         if (other.CompareTag("Health"))

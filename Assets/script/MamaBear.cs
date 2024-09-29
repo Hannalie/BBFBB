@@ -15,7 +15,7 @@ public class MamaBear : MonoBehaviour
             {
                 dialoguebox.SetActive(true);
                 finishedText.SetActive(true);
-                Invoke("LoadNextLevel", 7f);
+                Invoke("LoadNextLevel", 60f);
 
             }
             else
