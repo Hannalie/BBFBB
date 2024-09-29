@@ -6,7 +6,7 @@ public class MamaBear : MonoBehaviour
 {
     [SerializeField] private GameObject dialoguebox, finishedText, contfinishedText, unfinishedText;
     [SerializeField] private int questGoal = 3;
-    [SerializeField] private int levelChanger;
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
@@ -15,7 +15,6 @@ public class MamaBear : MonoBehaviour
             {
                 dialoguebox.SetActive(true);
                 finishedText.SetActive(true);
-                Invoke("LoadNextLevel", 60f);
 
             }
             else
@@ -25,11 +24,6 @@ public class MamaBear : MonoBehaviour
             }
         }
         
-    }
-
-    private void LoadNextLevel()
-    {
-        SceneManager.LoadScene(levelChanger);
     }
     private void OnTriggerExit2D(Collider2D other)
     {
