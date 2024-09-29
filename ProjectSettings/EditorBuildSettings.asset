@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cutscenes/cutscene 2 (1 of 2).unity
     guid: c9e94ea3dfdb8544284044f24572d2eb
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/cutscene 2 (2 of 2).unity
+    guid: 6a3522bddebf3a74793d0dd137ce8df3
+  - enabled: 1
+    path: Assets/Scenes/Level 2 SNOW.unity
+    guid: 00b342f9f5adbbf41b94430c3f7cbfea
   m_configObjects: {}
