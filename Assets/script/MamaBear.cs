@@ -7,6 +7,8 @@ public class MamaBear : MonoBehaviour
     [SerializeField] private GameObject dialoguebox, finishedText, contfinishedText, unfinishedText;
     [SerializeField] private int questGoal = 3;
 
+
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
@@ -15,7 +17,7 @@ public class MamaBear : MonoBehaviour
             {
                 dialoguebox.SetActive(true);
                 finishedText.SetActive(true);
-
+               
             }
             else
             {
@@ -34,4 +36,5 @@ public class MamaBear : MonoBehaviour
             unfinishedText.SetActive(false);
         }
     }
+
 }
