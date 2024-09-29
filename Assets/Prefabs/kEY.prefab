@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6009267190820210292}
   - component: {fileID: 2166387551072306861}
   - component: {fileID: 1244390997913886591}
+  - component: {fileID: -8525897413726462089}
   m_Layer: 0
   m_Name: kEY
   m_TagString: coin
@@ -171,3 +172,17 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &-8525897413726462089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9002141879340840063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c7832aa1e0d454a8e05ee124f1a53d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  height: 0.2

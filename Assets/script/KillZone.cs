@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class KillZone : MonoBehaviour
 {
@@ -9,8 +10,9 @@ public class KillZone : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            other.transform.position = spawnPosition.position;
-            other.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            //other.transform.position = spawnPosition.position;
+            //other.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         }
     }
 

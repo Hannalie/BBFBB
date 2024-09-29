@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Runtime.CompilerServices;
+using UnityEngine.SceneManagement;
 
 
 
@@ -321,10 +322,11 @@ public class PlayerMovement : MonoBehaviour
     }
         private void Respawn()
     {
-        currentHealth = startingHealth;
-        UpdateHealthBar();
-        transform.position = spawnPosition.position;
-      rgbd.velocity = Vector2.zero;
+         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        //currentHealth = startingHealth;
+       // UpdateHealthBar();
+        //transform.position = spawnPosition.position;
+        //rgbd.velocity = Vector2.zero;
     }
 
 }
