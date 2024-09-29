@@ -5,30 +5,24 @@ using static UnityEngine.GraphicsBuffer;
 
 public class CameraLock : MonoBehaviour
 {
-    // [SerializeField] private Transform cameraCoordinatesTransform;
     [SerializeField] private GameObject m_Camera, cameraCoordinates;
-    // private bool activateThisScene = false;
+    [SerializeField] private Transform cameraCoordinatesTransform;
+    private CameraFollowVer2 getFollowScript;
+
+    private void Start()
+    {
+        getFollowScript = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraFollowVer2>();
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            
-            CameraFollow.cameraLock = true;
-            /*
-            Vector3 newposition = Vector3.Lerp(m_Camera.transform.position, cameraCoordinatesTransform.position, 1);
-            transform.position = newposition; */
-            m_Camera.transform.position = cameraCoordinates.transform.position;
+            getFollowScript.mainCameraTarget = cameraCoordinatesTransform;
+            CameraFollowVer2.cameraLockVer2 = true;
+            // m_Camera.transform.position = cameraCoordinates.transform.position;
+            Debug.Log("CAMERA LOCKED!");
         }
-
-        /*
-        void LateUpdate()
-        {
-            if (activateThisScene == true)
-            {
-                Vector3 newposition = Vector3.Lerp(m_Camera.transform.position, cameraCoordinatesTransform.position, 1);
-                transform.position = newposition;
-            }
-        } */
     }
 
 }
