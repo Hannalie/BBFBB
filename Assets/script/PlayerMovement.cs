@@ -150,6 +150,17 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        // ADDED A RED KEY WHICH GRANTS 10 KEYS!
+        if (other.CompareTag("coin10"))
+        {
+            ljud.PlayOneShot(pickupSound, 0.4f);
+            ljud.pitch = Random.Range(0.8f, 1.2f);
+            Destroy(other.gameObject);
+            CoinsCollected = CoinsCollected + 10;
+            coinText.text = "" + CoinsCollected;
+            Instantiate(coinParticle, other.transform.position, Quaternion.identity);
+        }
+
         if (other.CompareTag("coin"))
         {
             ljud.PlayOneShot(pickupSound, 0.4f);

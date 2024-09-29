@@ -12,6 +12,7 @@ TagManager:
   - Health
   - cutScene
   - Checkpoint
+  - coin10
   layers:
   - Default
   - TransparentFX
