@@ -221,19 +221,19 @@ public class PlayerMovement : MonoBehaviour
         if (other.gameObject.TryGetComponent<SlowZoneScript>(out SlowZoneScript uselessVariable))
         {
             SlowZone = 1;
-            Debug.Log("NO ZONE'D!");
+            // Debug.Log("NO ZONE'D!");
         }
 
         if (other.gameObject.TryGetComponent<CallUponJumpBoostLeftFacing>(out CallUponJumpBoostLeftFacing uselessVariable2))
         {
             onHighJumpFaceLeft = false;
-            Debug.Log("LEFT BOOST UP GONE!");
+            // Debug.Log("LEFT BOOST UP GONE!");
         }
 
         if (other.gameObject.TryGetComponent<CallUponJumpBoostRightFacing>(out CallUponJumpBoostRightFacing uselessVariable3))
         {
             onHighJumpFaceRight = false;
-            Debug.Log("RIGHT BOOST UP GONE!");
+            // Debug.Log("RIGHT BOOST UP GONE!");
         }
     }
     private void FlipSprite(bool direction)
