@@ -10,5 +10,6 @@ public class titlescreen : MonoBehaviour
     {   
             SceneManager.LoadScene("StartMenu");
     }
+
 }
 
